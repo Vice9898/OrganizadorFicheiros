@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Nov 17 12:01:12 2026
+
+@author: diogo
+"""
+
+__pycache__/
+*.pyc
+.spyproject/
