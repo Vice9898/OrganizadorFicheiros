@@ -20,6 +20,7 @@ for ficheiro in pasta.iterdir():
 
         print("Nome:", ficheiro.name)
         print("Extensão:", ficheiro.suffix)
+        print("Tamanho:", ficheiro.stat().st_size, "bytes")
 
         if ficheiro.suffix == ".py":
             print("Tipo: Ficheiro Python")
